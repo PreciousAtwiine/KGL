@@ -3,79 +3,74 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/bootstrap-5.3.3/css/bootstrap.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/style.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/login.css">
+   
     <title>KGL | Welcome</title>
+
 </head>
 
-<body class="bg-light">
-    <div class="container-fluid mt-2">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-header text kgl-headers">
-                        <h4>Menu</h4>
-                    </div>
+<body>
+    <div class="container">
+        <div class="card" style="max-width: 100%;">
+            <div class="row">
+                <div class="col">
+                    <img src="imgs\products\karibu.jpeg" class="large-image" alt="Image" style="width:600px;height:500px;">
+                </div>
+                <div class="col">
                     <div class="card-body">
-                        <ul class="list-group">
-                            <li class="list-group-item"><a href="introduction.html">Introduction</a></li>
-                            <li class="list-group-item"><a href="dashboard.html">Dashboard</a></li>
-                            <li class="list-group-item">Companies</li>
-                            <li class="list-group-item"><a href="users.html">Users</a></li>
-                            <li class="list-group-item"> <a href="products.html">Products</a> </li>
-                            <li class="list-group-item">Payments</li>
-                            <li class="list-group-item">Sales</li>
-                            <li class="list-group-item"><a href="index.html">Logout</a></li </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="container" id="main">
-                <div class="col-md-5">
-                    <div class="card border-primary" id="loginCard">
-                        <div class="card-header">
-                            <h4 class="card-title">Login|Sign Up</h4>
+                      <div class="card-header"><h2>WELCOME TO KARIBU GROCERIES LIMITED</h2></div>
+
+                <form>
+
+
+
+                    <div class="row">
+
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname" value="Precious"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname" value="Atwiine"><br><br>
+
+
+                        <!-- Email -->
+                        <label for="inputEmail3" class="col-12 col-form-label">Email address</label>
+                        <div class="col">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                            </div>
                         </div>
 
-                        <div class="card-body">
-                            <form>
-                                <label for="fname">First name:</label><br>
-                                <input type="text" id="fname" name="fname" value="Precious"><br>
-                                <label for="lname">Last name:</label><br>
-                                <input type="text" id="lname" name="lname" value="Atwiine"><br><br>
 
-                                <form>
-                                    <!-- Email -->
-                                    <div class="mb-3">
-                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1"
-                                            aria-describedby="emailHelp">
-                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
-                                            else.</div>
-                                    </div>
-                                    <!-- Password -->
-                                    <div class="mb-3">
-                                        <label for="exampleInputPassword1" class="form-label">Password</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1">
-                                    </div>
-                                    <!-- remember me -->
-                                    <div class="mb-3 form-check">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Remember Me?</label>
-                                    </div>
-                                    <button type="submit" class="btn btn-primary">Submit</button>
-                                </form>
+                        <!-- Password -->
 
-                            </form>
-
+                        <label for="exampleInputPassword1" class="col-12 col-form-label">Password</label>
+                        <div class="col">
+                            <input type="password" class="form-control" id="inputPassword1">
                         </div>
-
                     </div>
-                </div>
+
+
+                    <!-- keep me signed in -->
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Keep me signed in</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+
+
             </div>
+
         </div>
-        <script src="css/bootstrap-5.3.3/js/bootstrap.bundle.js"></script>
     </div>
+
+    <script src="css/bootstrap-5.3.3/js/bootstrap.bundle.js"></script>
+
 </body>
 
 </html>
