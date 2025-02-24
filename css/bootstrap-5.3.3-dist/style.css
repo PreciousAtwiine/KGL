@@ -1,5 +1,6 @@
+
 h1 {
-    color: whitesmoke;
+    color:darkmagenta;
     text-align: center;
 }
 .card {
@@ -7,7 +8,8 @@ h1 {
     
 }
 h2 {
-    color: black
+    color: darkcyan;
+    text-align: justify;
 }
 body {
     background-color: azure;
