@@ -7,118 +7,108 @@
     <link rel="stylesheet" href="css/bootstrap-5.3.3/css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-5.3.3-dist/style.css">
     <title>KGL Dashboard</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+        }
+    </style>
 </head>
 
 <body class="bg-light">
     <div class="container-fluid mt-2">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="card">
-                    <div class="card-header text kgl-headers">
-                        <h4>Menu</h4>
-                    </div>
-                    <div class="row">
-                        <div class="col-2">
-                            <div class="card">
-                                <ul class="list-group list-group-flush">
-                                    <a href="introduction.html" class="btn btn-secondary"><li class="list-group-item">Home</li></a>
-                                    <a href="dashboard.html" class="btn btn-secondary"><li class="list-group-item">Dashboard</li></a>
-                                    <a href="products.html" class="btn btn-secondary"><li class="list-group-item">Our products</li></a>
-                                    <a href="users.html" class="btn btn-secondary"><li class="list-group-item">Users</li></a>
-                                    <a href="index.html" class="btn btn-secondary"><li class="list-group-item">Logout</li></a>
-                                    
-                                </ul>
-                            </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <a href="dashboard.html" </a>
-                    <div class="card-header">
-                        <h1>Dashboard</h1>
-                    </div>
-                    <div class="card-body">
-                        <h4>Welcome to our dashboard</h4>
-                    </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <h4>Companies</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1>15</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <a href="users.html"></a>
-                <div class="card">
-                    <div class="card-header">
+        <nav>
+            <a href="introduction.html">Home</a>|
+            <a href="dashboard.html">Dashboard</a>|
+            <a href="products.html">Our products</a>|
+            <a href="users.html">Users</a>|
+            <a href="index.html">Logout</a>
+        </nav>
 
-                        <h4>Users</h4>
-                    </div>
-                    <div class="card-body">
-                        <h1>3</h1>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <a href="products.html">
-                    <div class="card">
-                        <div class="card-header">
-                            <h4>Products</h4>
-                        </div>
-                        <div class="card-body">
-                            <h1>5</h1>
-                        </div>
-                    </div>
-                </a>
 
-            </div>
+        <div class="card-body">
+            <h4 style="text-align: center;">WELCOME TO OUR DASHBOARD</h4>
         </div>
+    </div>
+
+
+    <h4>Companies; 15</h4>
 
 
 
+    <div class="col-md-4">
+        <a href="users.html">
+            <div class="card">
+                <div class="card-header">
 
-        <div class="row mt-2">
-            <div class="col">
-                <div class="card">
-                    <div class="card-header">
-                        <h4>Latest Sales</h4>
-                    </div>
-                    <div class="card-body">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">Branch</th>
-                                    <th scope="col">Product</th>
-                                    <th scope="col">Prices (UGX)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">1</th>
-                                    <td>Matugga</td>
-                                    <td>Coffee</td>
-                                    <td>50,000</td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">2</th>
-                                    <td>Matugga</td>
-                                    <td>Beans</td>
-                                    <td>150,000</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    <h4>Users ;3</h4>
                 </div>
             </div>
-        </div>
+        </a>
+    </div>
+
+    <div class="col-md-4">
+        <a href="products.html">
+            <div class="card">
+                <div class="card-header">
+                    <h4> Our products ;5</h4>
+                </div>
+
+            </div>
+        </a>
 
     </div>
-    
+
+
+
+
+
+    <div class="row mt-2">
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Latest Sales</h4>
+                </div>
+                <div class="card-body">
+                    <table class="table">
+                        <thead>
+                        <tbody>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Branch</th>
+                                <th scope="col">Product</th>
+                                <th scope="col">Prices (UGX)</th>
+                            </tr>
+
+
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Matugga</td>
+                                <td>Coffee</td>
+                                <td>50,000</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Matugga</td>
+                                <td>Beans</td>
+                                <td>150,000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 </body>
 
 </html>
