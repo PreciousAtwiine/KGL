@@ -1,0 +1,17 @@
+/* Left aligning my navigation bar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    text-align: left; /* Ensures the nav bar is aligned to the left */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
